@@ -1,10 +1,11 @@
 # Introduction
+JAVA XPRESS Coffee Shop <br>
+https://java-xpress.herokuapp.com/
 <!--![image](https://user-images.githubusercontent.com/102547132/188667403-9f9a56a3-98e1-4804-abf0-29f21eccdfb5.png) -->
 ![image](https://user-images.githubusercontent.com/102547132/188667899-ce09932f-6a64-4f23-8903-4dcb2d2281ed.png)
 
-A Coffee Shop App that is built using the MVC Architecture, we have also implemented "authorization" so individuals can sign up.
+A Coffee Shop Employee App that is built using the MVC Architecture, we have also implemented "authorization" so individuals can sign up.
 
----
 
 # Objectives
 
