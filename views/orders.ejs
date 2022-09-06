@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
+    integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
+    <title>JX Queue</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="main-queue">
+        <section class="queue-header">
+            <section>
+                <h1>Java Xpress</h1>
+                <h3>COFFEE SHOP</h3>
+                <p>Welcome, <%= user.userName %>!</p>
+            </section>
+            <button class="light-btn queue-logout"><a class="" href="/logout">Log Out</a></button>
+        </section>
+        <section class="queue-container">
+            <section class="queue-input">
+                <form action="/orders/createOrder" method='POST'>
+                    <p class="title">Customer's Order</p>
+                    <input class="customerInfo" type="text" placeholder="Enter Order" name='orderItem'>
+                    <p class="title">Customer's Name</p>
+                    <input class="customerInfo" type="text" placeholder="Enter Name" name='name'>
+                <input class="light-btn" type="submit">
+            </form>
+        </section>
+        
+        <section class="queue-orders">
+            <h2 class="queue">You have <%= left %> <%= left > 1 || left === 0 ? 'orders' : 'order'%> in queue.</h2>
+            <p><%= left === 0 ?'Great job clearing the queue!' : 'You Got This!'%></p>
+            <ul class="orders">
+                <% order.forEach( el => { %>
+                    <li class='orderItem order' data-id='<%=el._id%>'>
+                        <span class='orderName <%= el.completed === true ? 'completed' : 'not'%>'>
+                            <%= el.order %>
+                        </span>
+                        <span class='el.name customerName <%= el.completed === true ? 'completed' : 'not'%>'>
+                            <%= el.name %>
+                        </span>
+                        <span class='del fas fa-trash'>  </span>
+                    </li>
+                    <% }) %>    
+                </ul>
+            </section>
+        </section>
+            
+            
+    </section>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
