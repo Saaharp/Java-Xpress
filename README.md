@@ -4,20 +4,15 @@ https://javaxpress.cyclic.app/
 <!--![image](https://user-images.githubusercontent.com/102547132/188667403-9f9a56a3-98e1-4804-abf0-29f21eccdfb5.png) -->
 ![image](https://user-images.githubusercontent.com/102547132/188667899-ce09932f-6a64-4f23-8903-4dcb2d2281ed.png)
 
-A Coffee Shop Employee App that is built using the MVC Architecture, we have also implemented "authorization" so individuals can sign up.
+Cashiers can take coffee orders from customers with their names. Baristas can login to the app and see orders that have been made and mark them as complete.
 
 
 # Objectives
 
-- It's a beginner level app created to understand how MVC concept and logins are added
+- It's a beginner level app created to demonstrate how MVC concept and logins are added
 
 ---
 
-# Who is this for? 
-
-- It's for beginners & intermediates with little more experience, to help understand the various aspects of building a node app with some complex features
-
----
 
 # Packages/Dependencies used 
 
@@ -38,4 +33,12 @@ bcrypt, connect-mongo, dotenv, ejs, express, express-flash, express-session, mon
   - DB_STRING: `your database URI` 
  ---
 
+## Examples:
+Take a look at a couple of these examples that I have in my own portfolio:
+
+**Federation Field Guide:** https://github.com/Saaharp/star-trek-api
+
+**Houston Astronomy Club API:** https://github.com/Saaharp/apod
+
+**The Hotel Helper:** https://github.com/Saaharp/the-hotel-helper
 
