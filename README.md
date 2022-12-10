@@ -1,15 +1,15 @@
-# Introduction
-JAVA XPRESS Coffee Shop <br>
-https://javaxpress.cyclic.app/
-<!--![image](https://user-images.githubusercontent.com/102547132/188667403-9f9a56a3-98e1-4804-abf0-29f21eccdfb5.png) -->
-![image](https://user-images.githubusercontent.com/102547132/188667899-ce09932f-6a64-4f23-8903-4dcb2d2281ed.png)
+# Java Xpress Coffee Shop
 
-Cashiers can take coffee orders from customers with their names. Baristas can login to the app and see orders that have been made and mark them as complete.
+This app allows cashiers to log coffee orders from customers with their names. Baristas can login to the app and see orders that have been placed and mark them as complete.
+
+https://javaxpress.cyclic.app/
+
+![image](https://user-images.githubusercontent.com/102547132/188667899-ce09932f-6a64-4f23-8903-4dcb2d2281ed.png)
 
 
 # Objectives
 
-- It's a beginner level app created to demonstrate how MVC concept and logins are added
+- This app was created to demonstrate how MVC concept and logins are added
 
 ---
 
