@@ -4,7 +4,7 @@ This app allows cashiers to log coffee orders from customers with their names. B
 
 https://javaxpress.cyclic.app/
 
-![image](https://user-images.githubusercontent.com/102547132/188667899-ce09932f-6a64-4f23-8903-4dcb2d2281ed.png)
+<img src="https://user-images.githubusercontent.com/102547132/205132354-409549e9-75f6-4d66-bdef-8737ea0d3738.gif" alt="Project2" height="" />
 
 
 # Objectives
