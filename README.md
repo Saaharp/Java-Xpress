@@ -7,31 +7,19 @@ https://javaxpress.cyclic.app/
 <img src="https://user-images.githubusercontent.com/102547132/205132354-409549e9-75f6-4d66-bdef-8737ea0d3738.gif" alt="Project2" height="" />
 
 
-# Objectives
-
-- This app was created to demonstrate how MVC concept and logins are added
-
----
-
-
-# Packages/Dependencies used 
+## Technology used:
 
 bcrypt, connect-mongo, dotenv, ejs, express, express-flash, express-session, mongodb, mongoose, morgan, nodemon, passport, passport-local, validator
 
----
 
-# Install all the dependencies or node packages used for development via Terminal
+## Optimizations:
 
-`npm install` 
+Quick Order Templates: Create pre-defined order templates for popular or frequently ordered items, enabling cashiers to quickly select and modify orders with a few clicks.
 
----
+Order Notes or Special Instructions: Provide an option for cashiers to include specific notes or special instructions from customers, such as dietary preferences or allergies.
 
-# Things to add
+Customer Profiles: Implement a customer profile feature that stores customer preferences, order history, and loyalty program details.
 
-- Create a `.env` file and add the following as `key: value` 
-  - PORT: 2121 (can be any port example: 3000) 
-  - DB_STRING: `your database URI` 
- ---
 
 ## Examples:
 Take a look at a couple of these examples that I have in my own portfolio:
